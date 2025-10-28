@@ -1,0 +1,54 @@
+# Research Paper Authenticity Detection - Configuration
+
+# Model paths
+models:
+  ai_detector: "./models/ai_detector_model"
+  semantic_index: "./models/semantic_index"
+
+# Detection thresholds
+thresholds:
+  ai_content:
+    high_confidence: 0.7
+    medium_confidence: 0.5
+  plagiarism:
+    similarity_threshold: 0.75
+    high_risk_percentage: 40.0
+    medium_risk_percentage: 20.0
+
+# Document processing
+document_processing:
+  min_sentence_length: 20
+  max_document_size_mb: 10
+  supported_formats: ["pdf", "txt"]
+
+# Semantic search
+semantic_search:
+  model_name: "all-MiniLM-L6-v2"  # Should match training
+  top_k_matches: 5
+  batch_size: 64
+
+# AI detection
+ai_detection:
+  model_name: "microsoft/deberta-v3-base"  # Should match training
+  max_length: 512
+  batch_size: 16
+
+# Web interface
+interface:
+  server_port: 7860
+  share_link: false
+  max_file_size_mb: 10
+  
+# Explainability
+reporting:
+  max_matches_displayed: 10
+  highlight_colors:
+    ai_only: "#ffa500"        # Orange
+    plagiarism_only: "#4ecdc4"  # Teal
+    both: "#ff6b6b"           # Red
+    clean: "#ffffff"          # White
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "./logs/app.log"

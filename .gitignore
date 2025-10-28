@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# VSCode settings
+.vscode/
+
+# Gradio cache
+.gradio/
+
+# Model files
+models/
+
+# Other ignores
+__pycache__/
+*.pyc
