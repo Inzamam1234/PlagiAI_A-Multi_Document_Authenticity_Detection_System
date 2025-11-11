@@ -60,39 +60,6 @@ Semantic Similarity Search (SBERT + FAISS)
 Score Calculation + Color Highlighting
 ↓
 Authenticity Report (Downloadable)
-
-## 🔧 Installation
-
-### Clone the Repository
-```bash
-git clone <your-repo-link>
-cd PlagiAI
-2. Install Dependencies
-bash
-Copy code
-pip install -r requirements.txt
-Or install manually:
-bash
-Copy code
-pip install torch transformers sentence-transformers faiss-cpu flask gradio
-3. Run the Web Application
-bash
-Copy code
-python app.py
-4. Open in Browser
-arduino
-Copy code
-http://localhost:7860/
-
-### How to Use
-Upload one or more documents (PDF / DOCX / TXT)
-
-Click Analyze
-
-View:
-
-AI Probability Score
-
 Plagiarism Similarity Score
 
 Color-coded sentence classification
