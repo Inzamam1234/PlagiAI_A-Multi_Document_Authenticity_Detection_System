@@ -60,8 +60,9 @@ Semantic Similarity Search (SBERT + FAISS)
 Score Calculation + Color Highlighting
 ↓
 Authenticity Report (Downloadable)
+↓
 Plagiarism Similarity Score
-
+↓
 Color-coded sentence classification
-
+↓
 Download the Authenticity Report
