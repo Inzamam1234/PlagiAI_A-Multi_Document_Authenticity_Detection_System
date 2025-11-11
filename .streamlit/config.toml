@@ -1,0 +1,31 @@
+[server]
+# Disable file watcher to prevent multiprocessing issues on macOS
+fileWatcherType = "none"
+
+# Maximum upload size in MB
+maxUploadSize = 10
+
+# Disable CORS
+enableCORS = false
+
+# Disable XSRF protection (only for local development)
+enableXsrfProtection = false
+
+[runner]
+# Disable fast reruns to prevent issues
+fastReruns = false
+
+# Magic commands
+magicEnabled = true
+
+[browser]
+# Automatically open browser
+gatherUsageStats = false
+
+[theme]
+# Optional: Custom theme
+primaryColor = "#667eea"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
