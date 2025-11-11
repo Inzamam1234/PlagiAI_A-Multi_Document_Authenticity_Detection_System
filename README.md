@@ -63,7 +63,7 @@ Authenticity Report (Downloadable)
 
 ## 🔧 Installation
 
-### 1. Clone the Repository
+### Clone the Repository
 ```bash
 git clone <your-repo-link>
 cd PlagiAI
@@ -84,7 +84,7 @@ arduino
 Copy code
 http://localhost:7860/
 
-### 🕹️ How to Use
+### How to Use
 Upload one or more documents (PDF / DOCX / TXT)
 
 Click Analyze
